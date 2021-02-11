@@ -1,0 +1,90 @@
+.container {
+  display: block;
+  background-color: #f0f5f5;
+  /* width: 1000px; */
+  width: 100%;
+  height: 600px;
+  /* overflow-x: auto; */
+}
+
+.outerHidden {
+  display: none;
+}
+
+.topBar {
+  display: flex;
+  /* align-items: stretch; */
+  /* background-color: red; */
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.tableContainer {
+  /* text-align: center; */
+  overflow-x: auto;
+  /* width: 100%; */
+}
+
+.table {
+  text-align: center;
+  
+  width: 100%;
+}
+
+/* tr {
+  width: 100%;
+} */
+.tableBar {
+  background-color: #ffcccc;
+  display: flex;
+  justify-content: space-between;
+  /* width: 00px; */
+  height: 25px;
+}
+
+.selectionContainer {
+  flex: 2 1 auto;
+}
+
+.selection {
+  float: left;
+  padding: 5px;
+  color: #ff0066;
+}
+.listContainer {
+  border-bottom: 1px solid grey;
+}
+.list {
+  /* background-color: coral; */
+  /* list-style-type: none; */
+  /* text-align: center; */
+  /* margin: 0; */
+  /* padding: 0px; */
+  /* font-size: 20px; */
+  /* width: 700px;  */
+
+  /* width: 100%; */
+  /* border: 10px solid red !important; */
+}
+
+.listName {
+  display: inline-block;
+  font-size: 20px;
+  width: 200px;
+  /* background-color: green; */
+  /* background-color: coral; */
+}
+
+.itemContainer {
+  border-bottom: 1px solid grey;
+}
+
+/* .listName:nth-child(2) {
+  background-color: red;
+  height: 20px;
+  width: 180px;
+  padding: 0;
+} */
